@@ -3,6 +3,7 @@ table {
 }
 .imageLogo{
     width: 20px;
+    margin-right: 10px;
 }
 .mat-mdc-form-field {
     font-size: 14px;

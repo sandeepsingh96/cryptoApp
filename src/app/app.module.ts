@@ -14,6 +14,7 @@ import { CryptoListComponent } from './components/crypto-list/crypto-list.compon
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { HttpClientModule } from '@angular/common/http';
 import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [AppComponent, NavbarComponent, CryptoListComponent],
@@ -30,6 +31,7 @@ import { MatTableModule } from '@angular/material/table';
     MatPaginatorModule,
     HttpClientModule,
     MatTableModule,
+    MatSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
