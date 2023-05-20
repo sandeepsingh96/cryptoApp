@@ -13,6 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { CryptoListComponent } from './components/crypto-list/crypto-list.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { HttpClientModule } from '@angular/common/http';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [AppComponent, NavbarComponent, CryptoListComponent],
@@ -28,6 +29,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatButtonModule,
     MatPaginatorModule,
     HttpClientModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
