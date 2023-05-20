@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CryptoListComponent } from './components/crypto-list/crypto-list.component';
+import { CryptoDetailsComponent } from './components/crypto-details/crypto-details.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: '', component: CryptoListComponent },
+  { path: 'details/:id', component: CryptoDetailsComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

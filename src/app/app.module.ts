@@ -15,9 +15,10 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { HttpClientModule } from '@angular/common/http';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
+import { CryptoDetailsComponent } from './components/crypto-details/crypto-details.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, CryptoListComponent],
+  declarations: [AppComponent, NavbarComponent, CryptoListComponent, CryptoDetailsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
